@@ -8,8 +8,6 @@ export default function App() {
     { title: 'Section 3', content: 'Content for section 3' },
   ];
 
-  console.log("acc 11",accordianData)
-
   return (
     <div>
       <h2>My Accordion</h2>

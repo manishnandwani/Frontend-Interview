@@ -1,0 +1,80 @@
+/* Base Theme */
+:root {
+  --bg: white;
+  --text: #1a1a1a;
+  --border: #ccc;
+  --secondary: #f5f5f5;
+}
+
+/* Dark Theme Overrides */
+.dark {
+  --bg: #121212;
+  --text: #f0f0f0;
+  --border: #444;
+  --secondary: #1e1e1e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.app-title {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.theme-toggle-btn {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.theme-toggle-btn:hover {
+  transform: scale(1.1);
+}
+
+.app-main {
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: var(--secondary);
+  border-radius: 8px;
+}
+
