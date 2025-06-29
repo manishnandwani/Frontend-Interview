@@ -1,48 +1,48 @@
  /* Base Styles */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      transition: background-color 0.3s, color 0.3s;
-    }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
 
-    .app {
-      min-height: 100vh;
-      background-color: white;
-      color: black;
-    }
+.app {
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+}
 
-     header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-      border-bottom: 1px solid #ccc;
-    }
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
 
-    .dark-mode {
-      background-color: #1a1a1a;
-      color: white;
-    }
+.dark-mode {
+  background-color: #1a1a1a;
+  color: white;
+}
 
-    .dark-mode header {
-      border-bottom-color: #444;
-    }
+.dark-mode header {
+  border-bottom-color: #444;
+}
 
-    .theme-toggle {
-      background: none;
-      border: 2px solid currentColor;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      cursor: pointer;
-      font-size: 20px;
-      transition: transform 0.2s;
-    }
+.theme-toggle {
+  background: none;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.2s;
+}
 
-    .theme-toggle:hover {
-      transform: scale(1.1);
-    }
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
 
-    main {
-      padding: 20px;
-    }
+main {
+  padding: 20px;
+}
